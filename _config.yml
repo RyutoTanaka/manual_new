@@ -1,5 +1,5 @@
 baseurl: ""
-url: "https://kiksworks.github.io"
+url: "https://kiksworks.github.io/manual"
 
 collections:
   education-board:
