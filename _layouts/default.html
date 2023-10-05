@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="robots" content="noindex,noarchive,nofollow,noimageindex">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="/favicon-32x32.png">
+  <title>{{page.title}}</title>
+</head>
+
+<body class="body">
+  {% include header.html %}
+  <hr>
+  
+  <div class="content">
+    <h1>{{page.title}}</h1>
+    {{content}}
+
+    <br>
+    <hr>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>
