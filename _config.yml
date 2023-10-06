@@ -8,3 +8,10 @@ collections:
     output: true
   circuit:
     output: true
+  control:
+    output: true
+  robot-problem:
+    output: true
+  assembly:
+    output: true    
+  
